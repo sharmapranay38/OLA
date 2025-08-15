@@ -6,7 +6,7 @@
 main{
     /* border: 2px solid red; */
     height: 400px;
-    background-image: url('./Assests/hero-banner.webp');
+    background-image: url('hero-banner.webp');
     background-size:90%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
@@ -139,9 +139,9 @@ border: 0.5px solid lightgrey;
     /* border: 2px solid red; */
     width: 27%;
     height: 55px;
-    background: url('./Assests/ola_cabs_back.svg') no-repeat bottom, radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
-    /* background-image: url('./Assests/ola_cabs_back.svg'); */
-    background-repeat: no-repeat;
+    background: radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+
+
     filter: drop-shadow(-3px 3px green);
     /* background:radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%); */
     text-align: left;
